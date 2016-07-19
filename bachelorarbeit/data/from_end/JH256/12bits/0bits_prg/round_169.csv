@@ -1,0 +1,23 @@
+algorithm:JH256, bits:12, random:0, round:169, reduction:end
+7ac,32
+10,d85
+d85,933
+8a3,28d
+32,10
+744,7ac
+242,f0d
+28d,cf3
+cf3,242
+933,ed7
+ed7,8a3
+f0d,744
+111,efc
+6e4,b06
+15d,10
+d4a,cb3
+cb3,111
+efc,6e4
+b91,d4a
+931,15d
+b06,931
+681,b91

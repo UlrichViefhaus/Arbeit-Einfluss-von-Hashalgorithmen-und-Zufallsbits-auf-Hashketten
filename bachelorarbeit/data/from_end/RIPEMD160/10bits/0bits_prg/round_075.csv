@@ -1,0 +1,17 @@
+algorithm:RIPEMD160, bits:10, random:0, round:75, reduction:end
+360,360
+2d3,360
+291,83
+1cd,352
+2a9,375
+1bd,217
+83,2d2
+2d2,2d3
+352,fa
+375,291
+96,1bd
+fa,96
+27c,2bf
+217,2a9
+2bf,27c
+268,1cd

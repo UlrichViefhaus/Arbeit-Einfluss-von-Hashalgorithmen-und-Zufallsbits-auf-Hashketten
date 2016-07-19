@@ -1,0 +1,217 @@
+algorithm:MD5, bits:14, random:0, round:259, reduction:end
+Strongly connected component nr.: 1
+	c72 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	328c 
+	258c 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	3817 
+	1508 
+	293c 
+	605 
+	2418 
+	129d 
+	157e 
+Number of nodes:7
+
+Strongly connected component nr.: 4
+	2f7d 
+	205f 
+	2216 
+	1de6 
+	3bd2 
+	1bcc 
+	1c5e 
+Number of nodes:7
+
+Strongly connected component nr.: 5
+	ba6 
+	6e3 
+	f3f 
+	2882 
+	2f34 
+	1229 
+	1855 
+	721 
+Number of nodes:8
+
+Strongly connected component nr.: 6
+	17c3 
+	2020 
+	3d05 
+	2a78 
+	32d9 
+	5f5 
+	bb5 
+	2ba1 
+	3883 
+Number of nodes:9
+
+Strongly connected component nr.: 7
+	3e70 
+	2791 
+	39cf 
+	262d 
+	fc1 
+	2290 
+	45c 
+	fc0 
+	2f8d 
+	1f07 
+	a3f 
+	17d 
+	16b 
+	3e59 
+	19f0 
+	3ae 
+	15f7 
+	1f84 
+	36a1 
+	22b9 
+	1958 
+	3b8c 
+	11f0 
+	357d 
+	187c 
+	204f 
+	1d7d 
+	37e8 
+	353b 
+	7dc 
+	31b9 
+	2fa4 
+	39d9 
+	2f32 
+	9e5 
+	3cb4 
+	dc4 
+	383 
+	1f67 
+	574 
+	9c9 
+	1eb1 
+	2387 
+	116f 
+	2271 
+	3b4e 
+	1dc3 
+	204d 
+	1e06 
+	374 
+	343d 
+	2343 
+	c27 
+	341a 
+	36c6 
+	1f34 
+	31e1 
+	17f2 
+	3d5e 
+Number of nodes:59
+
+Strongly connected component nr.: 8
+	cc0 
+	2db9 
+	3d3f 
+	754 
+	39c5 
+	34c0 
+	25bd 
+	1728 
+	2f58 
+	12cf 
+	fa2 
+	31bb 
+	244 
+	21ab 
+	8fa 
+	11c0 
+	296d 
+	a8d 
+	2065 
+	2e81 
+	582 
+	3c54 
+	e5e 
+	86f 
+	fa3 
+	2376 
+	eec 
+	1441 
+	3e06 
+	15c2 
+	306c 
+	2e1d 
+	2b4a 
+	8d 
+	1557 
+	20cb 
+	6fd 
+	a22 
+	b31 
+	285f 
+	1408 
+	24f3 
+	2b42 
+	2b97 
+	3116 
+	24d1 
+	220e 
+	3f2b 
+	23dd 
+	b3 
+	1a73 
+	12a0 
+	3cb6 
+	aa9 
+	376e 
+	2b6d 
+	1b09 
+	1cfb 
+	16b6 
+	110e 
+	198b 
+	136c 
+	426 
+	dea 
+	237c 
+	524 
+	dcd 
+	2730 
+	2060 
+	3e04 
+	3c80 
+	1f5a 
+	1df 
+	1 
+	3574 
+	7e7 
+	cf2 
+	1241 
+	197f 
+	2ada 
+	3e17 
+	10c9 
+	1115 
+	1d1b 
+	d51 
+	b84 
+	27ec 
+	32b4 
+	23ce 
+	2032 
+	15c7 
+	3f09 
+Number of nodes:92
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:8
+
+Total size:185
+EOF

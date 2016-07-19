@@ -1,0 +1,62 @@
+algorithm:Groestl256, bits:10, random:0, round:52, reduction:start
+Strongly connected component nr.: 1
+	da 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	16e 
+	273 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	364 
+	1d0 
+	3f6 
+Number of nodes:3
+
+Strongly connected component nr.: 4
+	1e6 
+	207 
+	34b 
+	3e3 
+	1f7 
+	6b 
+	1c1 
+	226 
+	29 
+	111 
+	1c0 
+	3ce 
+	142 
+	48 
+	2ba 
+Number of nodes:15
+
+Strongly connected component nr.: 5
+	d1 
+	20d 
+	3cd 
+	3d2 
+	2a5 
+	320 
+	192 
+	f 
+	131 
+	a9 
+	17b 
+	18e 
+	36a 
+	217 
+	394 
+	55 
+	10e 
+	6c 
+Number of nodes:18
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:5
+
+Total size:39
+EOF

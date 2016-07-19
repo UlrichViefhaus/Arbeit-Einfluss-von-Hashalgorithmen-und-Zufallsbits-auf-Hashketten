@@ -1,0 +1,27 @@
+algorithm:Groestl256, bits:10, random:0, round:49, reduction:end
+26d,3cd
+3cf,f1
+1a,3cf
+27e,277
+53,26d
+12c,24c
+39,39a
+24c,27e
+39a,3f3
+2c1,39
+f1,53
+277,1a
+3f3,12c
+3e9,c2
+2dc,1a
+18f,3e9
+3cd,2c1
+c2,18f
+2c6,17b
+255,2c6
+2d5,255
+17b,2d5
+1db,14e
+14e,1fa
+117,2dc
+1fa,1db

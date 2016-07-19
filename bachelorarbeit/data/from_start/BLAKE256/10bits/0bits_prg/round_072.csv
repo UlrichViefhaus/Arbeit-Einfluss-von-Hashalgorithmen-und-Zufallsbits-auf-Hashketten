@@ -1,0 +1,16 @@
+algorithm:BLAKE256, bits:10, random:0, round:72, reduction:start
+22d,201
+109,23a
+358,25b
+32b,32b
+25b,22d
+23a,e2
+3f5,1f5
+e2,358
+6e,14e
+201,109
+199,6e
+14e,1d7
+1f5,3f5
+3a9,199
+1d7,3a9

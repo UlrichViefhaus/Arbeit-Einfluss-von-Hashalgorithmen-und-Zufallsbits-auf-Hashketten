@@ -1,0 +1,27 @@
+algorithm:SHA256, bits:10, random:0, round:78, reduction:mid
+323,3a7
+35b,29e
+2e8,14
+62,2cd
+3a7,2e8
+14,ed
+ed,62
+301,2cd
+36,35b
+3ad,323
+29e,258
+258,3ba
+2cd,36
+3ba,a
+244,225
+a,3ad
+ca,301
+d6,27e
+349,1b7
+1b7,ca
+25c,25c
+27c,349
+27e,27c
+191,191
+225,d6
+2d8,2d8

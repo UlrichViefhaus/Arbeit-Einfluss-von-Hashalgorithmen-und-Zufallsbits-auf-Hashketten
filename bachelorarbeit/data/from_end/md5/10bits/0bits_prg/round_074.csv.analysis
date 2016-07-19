@@ -1,0 +1,62 @@
+algorithm:MD5, bits:10, random:0, round:74, reduction:end
+Strongly connected component nr.: 1
+	152 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	139 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	24e 
+Number of nodes:1
+
+Strongly connected component nr.: 4
+	b 
+	1ea 
+	25a 
+Number of nodes:3
+
+Strongly connected component nr.: 5
+	285 
+	77 
+	205 
+	b6 
+	29e 
+Number of nodes:5
+
+Strongly connected component nr.: 6
+	ad 
+	3e7 
+	d3 
+	1ad 
+	44 
+	18b 
+	104 
+	12c 
+	1c8 
+	3fd 
+	31c 
+Number of nodes:11
+
+Strongly connected component nr.: 7
+	61 
+	10d 
+	3db 
+	f6 
+	34f 
+	140 
+	aa 
+	195 
+	1a5 
+	38b 
+	212 
+Number of nodes:11
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:7
+
+Total size:33
+EOF

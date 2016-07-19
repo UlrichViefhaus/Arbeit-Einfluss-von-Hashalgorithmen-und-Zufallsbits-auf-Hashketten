@@ -1,0 +1,26 @@
+algorithm:KECCAK256, bits:10, random:0, round:63, reduction:end
+Strongly connected component nr.: 1
+	113 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	217 
+	c2 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	24d 
+	33d 
+	277 
+	1a3 
+	219 
+	1b0 
+Number of nodes:6
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:3
+
+Total size:9
+EOF

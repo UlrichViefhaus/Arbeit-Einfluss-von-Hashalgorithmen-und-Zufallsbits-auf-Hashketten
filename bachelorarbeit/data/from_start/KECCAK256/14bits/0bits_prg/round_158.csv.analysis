@@ -1,0 +1,213 @@
+algorithm:KECCAK256, bits:14, random:0, round:158, reduction:start
+Strongly connected component nr.: 1
+	362f 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	1822 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	296c 
+Number of nodes:1
+
+Strongly connected component nr.: 4
+	1ebc 
+	16c2 
+	21cb 
+	116d 
+	2a14 
+Number of nodes:5
+
+Strongly connected component nr.: 5
+	3491 
+	356c 
+	1857 
+	24a1 
+	2615 
+	11b0 
+	36e6 
+	399a 
+	2d6b 
+	383a 
+	bc5 
+Number of nodes:11
+
+Strongly connected component nr.: 6
+	31fe 
+	36b9 
+	1487 
+	2abc 
+	2cf1 
+	2ae6 
+	198a 
+	12af 
+	3e46 
+	2be4 
+	8a9 
+	16dc 
+	6ef 
+	1fb7 
+	14a4 
+	108e 
+	1ef6 
+	1e03 
+	3426 
+	e59 
+	dd4 
+	30c3 
+	1f0a 
+	3095 
+	1f36 
+Number of nodes:25
+
+Strongly connected component nr.: 7
+	3aed 
+	1460 
+	2194 
+	3663 
+	f09 
+	27f3 
+	11b5 
+	3b34 
+	3f9 
+	239a 
+	28c6 
+	2e1d 
+	31a8 
+	55b 
+	f83 
+	1b2c 
+	34a0 
+	e00 
+	3f42 
+	2282 
+	2323 
+	160c 
+	3b21 
+	1d75 
+	2b52 
+	2a21 
+	f4e 
+	3bc4 
+	3f59 
+	19dd 
+Number of nodes:30
+
+Strongly connected component nr.: 8
+	597 
+	e5a 
+	778 
+	9c4 
+	eed 
+	3af0 
+	2bb2 
+	2d9 
+	15cf 
+	125d 
+	316e 
+	2a7d 
+	285b 
+	22e4 
+	15a5 
+	2ccb 
+	1555 
+	22ec 
+	1522 
+	29e0 
+	13a7 
+	1c71 
+	10f5 
+	3c6 
+	35b7 
+	f61 
+	2485 
+	fb9 
+	33e0 
+	b5c 
+	1af0 
+	3a61 
+	296a 
+	3847 
+	ca2 
+	3c0a 
+	8f7 
+	1cce 
+	2eb5 
+	655 
+	3a0c 
+	532 
+	3ce8 
+	1a9e 
+	2098 
+	540 
+	30b0 
+	20f2 
+	3369 
+	d55 
+	2bbb 
+	1e2d 
+	3b7c 
+	3f4 
+	2e59 
+	1372 
+	153d 
+	3ca6 
+	3f34 
+	2d83 
+	1a67 
+	d94 
+	2ce4 
+	3094 
+	28e6 
+	39d7 
+	3a6e 
+	36f7 
+	30a8 
+	1802 
+	217b 
+	49e 
+	d22 
+	33d7 
+	a92 
+	1e5f 
+	1fbc 
+	130d 
+	1feb 
+	24bc 
+	28e9 
+	3144 
+	29fb 
+	32f4 
+	2ff2 
+	110 
+	3592 
+	3ef2 
+	b0e 
+	3525 
+	33b9 
+	402 
+	17f6 
+	1a52 
+	4e3 
+	654 
+	20b4 
+	17d8 
+	1e8e 
+	150a 
+	efe 
+	23ca 
+	1666 
+	ce0 
+	d4f 
+	7ee 
+	a62 
+Number of nodes:107
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:8
+
+Total size:181
+EOF

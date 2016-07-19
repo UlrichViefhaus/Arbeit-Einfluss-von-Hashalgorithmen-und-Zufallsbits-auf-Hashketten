@@ -1,0 +1,111 @@
+algorithm:KECCAK256, bits:12, random:0, round:102, reduction:start
+Strongly connected component nr.: 1
+	2c5 
+	479 
+	c3a 
+Number of nodes:3
+
+Strongly connected component nr.: 2
+	173 
+	6de 
+	aac 
+	721 
+	3c1 
+	bfa 
+	afc 
+	9fe 
+	c98 
+	21a 
+	931 
+	951 
+	37 
+	361 
+	343 
+	b5 
+	674 
+	15b 
+	3bf 
+	91e 
+	889 
+	5bf 
+	884 
+	d20 
+	eba 
+	350 
+	e81 
+	f3e 
+	b9e 
+	83a 
+	50 
+	c5c 
+	18b 
+	afd 
+	666 
+	ce0 
+	d4f 
+	63a 
+	2cb 
+	57f 
+	408 
+	91b 
+	e99 
+	728 
+	84 
+	d42 
+	570 
+	9fa 
+	ed0 
+	a1d 
+	6d4 
+	7d2 
+	4a7 
+	c48 
+	a86 
+	efc 
+	515 
+	e47 
+	5b 
+	376 
+	b15 
+	f40 
+	5d5 
+	c5f 
+	8f8 
+	972 
+	95b 
+	5dc 
+	97c 
+	892 
+	2e8 
+	af3 
+	215 
+	6d5 
+	420 
+	a59 
+	d3 
+	ce 
+	9f5 
+	1f9 
+	762 
+	902 
+	1be 
+	45d 
+	a1 
+	b51 
+	903 
+	822 
+	28e 
+	a27 
+	cb7 
+	849 
+	dba 
+	716 
+Number of nodes:94
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:2
+
+Total size:97
+EOF

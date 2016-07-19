@@ -1,0 +1,55 @@
+algorithm:BLAKE256, bits:10, random:0, round:55, reduction:end
+Strongly connected component nr.: 1
+	40 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	45 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	15e 
+Number of nodes:1
+
+Strongly connected component nr.: 4
+	3fb 
+	1c6 
+Number of nodes:2
+
+Strongly connected component nr.: 5
+	32f 
+	2a6 
+Number of nodes:2
+
+Strongly connected component nr.: 6
+	89 
+	d7 
+	3a3 
+	1e0 
+	310 
+	180 
+	275 
+	156 
+	d0 
+	1c8 
+	2af 
+	35b 
+	378 
+	303 
+	280 
+	289 
+	67 
+	34f 
+	25b 
+	2a 
+	19b 
+	268 
+Number of nodes:22
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:29
+EOF

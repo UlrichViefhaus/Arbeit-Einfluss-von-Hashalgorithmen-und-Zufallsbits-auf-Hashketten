@@ -1,0 +1,92 @@
+algorithm:JH256, bits:10, random:0, round:40, reduction:start
+Strongly connected component nr.: 1
+	e1 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	259 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	291 
+	2b2 
+Number of nodes:2
+
+Strongly connected component nr.: 4
+	b6 
+	cd 
+Number of nodes:2
+
+Strongly connected component nr.: 5
+	18c 
+	308 
+	9e 
+	59 
+	29a 
+	10e 
+	230 
+Number of nodes:7
+
+Strongly connected component nr.: 6
+	68 
+	58 
+	f3 
+	3b0 
+	307 
+	1e9 
+	3d6 
+	46 
+	1d1 
+	3c6 
+	333 
+	136 
+	2cf 
+	109 
+	3df 
+	21 
+	112 
+	222 
+	8c 
+	d6 
+	31 
+	23 
+	22c 
+	5b 
+	d 
+	3c3 
+	26 
+	3e6 
+	32f 
+	35e 
+	1b7 
+	3c7 
+	209 
+	af 
+	164 
+	386 
+	6 
+	1e8 
+	f2 
+	c5 
+	2 
+	332 
+	cb 
+	f7 
+	62 
+	ac 
+	2f 
+	369 
+	7c 
+	227 
+	18 
+	23a 
+	265 
+Number of nodes:53
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:66
+EOF

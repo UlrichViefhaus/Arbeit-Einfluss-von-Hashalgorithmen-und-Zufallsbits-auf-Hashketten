@@ -1,0 +1,173 @@
+algorithm:Groestl256, bits:14, random:0, round:320, reduction:end
+Strongly connected component nr.: 1
+	1e30 
+	1601 
+	3e5 
+	3516 
+Number of nodes:4
+
+Strongly connected component nr.: 2
+	2db8 
+	3fdf 
+	1f5f 
+	1a4 
+	2626 
+Number of nodes:5
+
+Strongly connected component nr.: 3
+	3a6c 
+	b3f 
+	3586 
+	774 
+	1633 
+	23bb 
+	136b 
+	3743 
+Number of nodes:8
+
+Strongly connected component nr.: 4
+	3cb3 
+	2009 
+	2589 
+	175f 
+	97a 
+	3d86 
+	23ce 
+	357f 
+	59f 
+	34b9 
+	344a 
+	383 
+	3b22 
+	3132 
+	3b01 
+	6e 
+	3fd9 
+	226d 
+	1c34 
+	373d 
+Number of nodes:20
+
+Strongly connected component nr.: 5
+	3174 
+	1984 
+	c35 
+	1e7c 
+	2c04 
+	3a24 
+	1c97 
+	146f 
+	3601 
+	1572 
+	fe8 
+	1d54 
+	1c2 
+	3490 
+	1cb1 
+	2afb 
+	3f73 
+	392b 
+	1251 
+	25d 
+	1cfc 
+	1ec6 
+	3194 
+	3345 
+	5ea 
+	ef3 
+	360a 
+	59c 
+	274e 
+	2964 
+	3bfd 
+	235c 
+	25da 
+	332 
+	26bf 
+Number of nodes:35
+
+Strongly connected component nr.: 6
+	21f9 
+	21a9 
+	5b0 
+	1585 
+	33ef 
+	1b55 
+	98d 
+	2494 
+	1cc0 
+	1da8 
+	2e2a 
+	25de 
+	337d 
+	3e7c 
+	1cc 
+	3707 
+	3420 
+	b81 
+	67b 
+	1f7d 
+	1e9 
+	34ac 
+	29a3 
+	2875 
+	100d 
+	3fe 
+	37da 
+	f75 
+	3070 
+	3910 
+	2d87 
+	33aa 
+	1878 
+	28d6 
+	127b 
+	4bc 
+	22b6 
+	3fa6 
+	166 
+	2d83 
+	3f37 
+	3e88 
+	1e5 
+	75f 
+	3b7c 
+	2830 
+	38fe 
+	1f07 
+	1e13 
+	9e 
+	3b8d 
+	68 
+	34e2 
+	cd1 
+	137b 
+	1de6 
+	50f 
+	3de8 
+	29f3 
+	2af0 
+	5df 
+	31ed 
+	563 
+	24da 
+	28e7 
+	a67 
+	15d 
+	e27 
+	2a8e 
+	1f64 
+	1d13 
+	3285 
+	3543 
+	b72 
+	8a2 
+Number of nodes:75
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:147
+EOF

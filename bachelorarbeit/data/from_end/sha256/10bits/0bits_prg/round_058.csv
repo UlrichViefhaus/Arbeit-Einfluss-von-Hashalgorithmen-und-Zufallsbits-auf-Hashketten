@@ -1,0 +1,21 @@
+algorithm:SHA256, bits:10, random:0, round:58, reduction:end
+3ae,54
+12c,227
+2ac,2ac
+e5,aa
+1e0,142
+20c,1e0
+348,20c
+227,348
+aa,3d1
+3d1,12c
+142,308
+308,3ae
+1a,d7
+306,1a
+29b,306
+d7,e5
+54,29b
+266,e5
+191,191
+3b7,266

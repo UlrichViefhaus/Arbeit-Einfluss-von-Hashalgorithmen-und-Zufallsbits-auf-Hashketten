@@ -1,0 +1,165 @@
+algorithm:SHA256, bits:12, random:0, round:69, reduction:start
+Strongly connected component nr.: 1
+	f96 
+	d6e 
+Number of nodes:2
+
+Strongly connected component nr.: 2
+	27e 
+	993 
+	af8 
+Number of nodes:3
+
+Strongly connected component nr.: 3
+	d33 
+	2f0 
+	9e8 
+	4b0 
+	7c8 
+	4f8 
+	345 
+	547 
+	be 
+Number of nodes:9
+
+Strongly connected component nr.: 4
+	1a8 
+	212 
+	2f4 
+	1fb 
+	1c5 
+	e9f 
+	44a 
+	11 
+	cd1 
+	50d 
+	b20 
+	2bd 
+	c7f 
+	541 
+	398 
+	85f 
+	7a5 
+	5cb 
+	7c 
+	598 
+	e9e 
+	a9 
+Number of nodes:22
+
+Strongly connected component nr.: 5
+	256 
+	95b 
+	866 
+	65c 
+	f3b 
+	ce3 
+	d09 
+	c5f 
+	18e 
+	e1e 
+	a1a 
+	45c 
+	d85 
+	64f 
+	911 
+	445 
+	db8 
+	ee7 
+	f66 
+	ef9 
+	6dd 
+	625 
+	d87 
+	cfb 
+	d22 
+	ad 
+	d1c 
+	6b5 
+	8ee 
+	b73 
+	333 
+	23 
+	957 
+Number of nodes:33
+
+Strongly connected component nr.: 6
+	eca 
+	56c 
+	c02 
+	d79 
+	fbd 
+	8a3 
+	2b 
+	5af 
+	370 
+	227 
+	110 
+	6c5 
+	28f 
+	8ca 
+	51b 
+	152 
+	6b8 
+	2f7 
+	818 
+	382 
+	a81 
+	90b 
+	607 
+	360 
+	161 
+	a2d 
+	291 
+	413 
+	199 
+	d1e 
+	fcc 
+	7ef 
+	d77 
+	cd3 
+	c99 
+	157 
+	c88 
+	b93 
+	f60 
+	3ce 
+	ecf 
+	5d 
+	6b7 
+	1f4 
+	8ba 
+	efb 
+	a84 
+	555 
+	99f 
+	232 
+	23a 
+	c8a 
+	bf5 
+	710 
+	81e 
+	97f 
+	331 
+	c34 
+	752 
+	5fb 
+	be7 
+	d0b 
+	49e 
+	4bb 
+	ed4 
+	7f0 
+	f94 
+	b3b 
+	f00 
+	eaf 
+Number of nodes:70
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:139
+EOF

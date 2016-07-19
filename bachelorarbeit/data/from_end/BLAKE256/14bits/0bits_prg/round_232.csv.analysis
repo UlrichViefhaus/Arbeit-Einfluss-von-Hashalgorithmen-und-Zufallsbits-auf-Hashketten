@@ -1,0 +1,124 @@
+algorithm:BLAKE256, bits:14, random:0, round:232, reduction:end
+Strongly connected component nr.: 1
+	ef3 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	11b5 
+	130f 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	23a0 
+	1af0 
+	3eb 
+	16b1 
+	146a 
+Number of nodes:5
+
+Strongly connected component nr.: 4
+	b8 
+	1c38 
+	3ca 
+	791 
+	2592 
+Number of nodes:5
+
+Strongly connected component nr.: 5
+	1774 
+	2115 
+	1b9c 
+	dc2 
+	2500 
+	1f39 
+	1ee5 
+	30b3 
+	3032 
+	16e 
+	3aac 
+	2a49 
+Number of nodes:12
+
+Strongly connected component nr.: 6
+	1b43 
+	2a30 
+	2f6b 
+	3db5 
+	1c7d 
+	b34 
+	3370 
+	3868 
+	30fe 
+	32c0 
+	2a3b 
+	259e 
+	3842 
+	3254 
+	39cb 
+	78e 
+	61 
+	3cd9 
+	3772 
+	b43 
+	3bbe 
+	b8d 
+	108 
+	14b2 
+	d86 
+	25b9 
+	2a 
+	3e4 
+	1f1b 
+Number of nodes:29
+
+Strongly connected component nr.: 7
+	20a3 
+	b73 
+	afb 
+	39db 
+	29bf 
+	2c14 
+	166d 
+	2e25 
+	373b 
+	20d7 
+	3952 
+	1518 
+	1a54 
+	d56 
+	3ecb 
+	3dd6 
+	34c4 
+	1e3 
+	e41 
+	21b0 
+	3b76 
+	3169 
+	1fe9 
+	4a6 
+	311f 
+	31b 
+	666 
+	2762 
+	7d2 
+	19bd 
+	c6c 
+	276d 
+	3e3e 
+	11f8 
+	1dd0 
+	3a11 
+	39f2 
+	1479 
+	312f 
+	50a 
+	227e 
+Number of nodes:41
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:7
+
+Total size:95
+EOF

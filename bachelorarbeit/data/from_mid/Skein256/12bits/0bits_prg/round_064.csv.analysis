@@ -1,0 +1,139 @@
+algorithm:Skein256, bits:12, random:0, round:64, reduction:mid
+Strongly connected component nr.: 1
+	92b 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	742 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	e71 
+Number of nodes:1
+
+Strongly connected component nr.: 4
+	fa6 
+Number of nodes:1
+
+Strongly connected component nr.: 5
+	3 
+	a22 
+Number of nodes:2
+
+Strongly connected component nr.: 6
+	c3 
+	3b8 
+Number of nodes:2
+
+Strongly connected component nr.: 7
+	2c7 
+	7b8 
+Number of nodes:2
+
+Strongly connected component nr.: 8
+	71d 
+	729 
+	f05 
+	20 
+	80a 
+	122 
+	2bc 
+	32 
+Number of nodes:8
+
+Strongly connected component nr.: 9
+	93d 
+	342 
+	74 
+	c1b 
+	b4 
+	178 
+	441 
+	e5c 
+	6a4 
+	197 
+	df7 
+	c67 
+	52a 
+	6a3 
+	692 
+	15f 
+	715 
+	707 
+	c1f 
+	f19 
+	91 
+	86c 
+	1a1 
+	3d2 
+	ab4 
+	f30 
+	686 
+	489 
+	aaa 
+	9c5 
+	b7b 
+	934 
+	323 
+	a13 
+	58f 
+	19c 
+	b93 
+	593 
+	11f 
+	c7b 
+	d6e 
+	d8b 
+	59c 
+	f46 
+	200 
+	44 
+	260 
+	28a 
+	327 
+	9e3 
+	e03 
+	8e5 
+	66d 
+	c1c 
+	c0 
+	93a 
+	ea5 
+	40b 
+	fbe 
+	991 
+	26d 
+	334 
+	e3b 
+	539 
+	987 
+	e1c 
+	f02 
+	ae2 
+	3b5 
+	cd4 
+	f38 
+	b4d 
+	a43 
+	e7d 
+	454 
+	9ed 
+	e13 
+	ad1 
+	ccf 
+	8b7 
+	778 
+	72d 
+	321 
+	37a 
+	151 
+	c69 
+Number of nodes:86
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:9
+
+Total size:104
+EOF

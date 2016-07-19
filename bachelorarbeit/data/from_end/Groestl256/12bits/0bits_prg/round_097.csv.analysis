@@ -1,0 +1,259 @@
+algorithm:Groestl256, bits:12, random:0, round:97, reduction:end
+Strongly connected component nr.: 1
+	d2d 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	b8e 
+	ab1 
+	e2a 
+	25c 
+Number of nodes:4
+
+Strongly connected component nr.: 3
+	6da 
+	872 
+	b61 
+	374 
+	2b8 
+Number of nodes:5
+
+Strongly connected component nr.: 4
+	764 
+	79c 
+	285 
+	3bd 
+	72d 
+	e6e 
+	e59 
+	948 
+	32b 
+	320 
+	f19 
+	fb7 
+	d5a 
+	62e 
+Number of nodes:14
+
+Strongly connected component nr.: 5
+	653 
+	2c7 
+	c9 
+	69 
+	2dc 
+	8a2 
+	c99 
+	537 
+	e82 
+	360 
+	801 
+	5c7 
+	bd3 
+	bb1 
+	568 
+	64b 
+	9bf 
+Number of nodes:17
+
+Strongly connected component nr.: 6
+	a3c 
+	128 
+	1ca 
+	1cb 
+	7e4 
+	be4 
+	928 
+	457 
+	f9b 
+	8e7 
+	d60 
+	eb7 
+	eb6 
+	8f9 
+	c86 
+	54c 
+	67f 
+	44a 
+	ddd 
+	727 
+	c3a 
+	7ec 
+	996 
+	5bd 
+	9b0 
+	46 
+	525 
+	59 
+	720 
+	ad9 
+	522 
+	d29 
+Number of nodes:32
+
+Strongly connected component nr.: 7
+	7c0 
+	a03 
+	174 
+	fcd 
+	35f 
+	33d 
+	d45 
+	437 
+	3a4 
+	e17 
+	c8c 
+	7f8 
+	a93 
+	ae7 
+	ec5 
+	c0c 
+	e07 
+	1df 
+	391 
+	98c 
+	3e3 
+	749 
+	f9 
+	bbc 
+	5c9 
+	9a5 
+	527 
+	242 
+	ca2 
+	b7f 
+	354 
+	848 
+	c22 
+	c80 
+	5a6 
+	f34 
+	597 
+	573 
+	2f6 
+	6bb 
+	f93 
+	6fa 
+	9bb 
+	a82 
+	e99 
+	e9b 
+	b3f 
+	f4d 
+	fd 
+	57c 
+	693 
+	a7e 
+	e28 
+	6df 
+	dd3 
+	d67 
+	913 
+	d97 
+	ef2 
+	657 
+	8ee 
+	659 
+	7e 
+	daa 
+	753 
+	cc3 
+	ee3 
+	68 
+	93e 
+	ec9 
+	6e6 
+	141 
+	5e7 
+	bc1 
+	1a6 
+	fcb 
+	63e 
+	e5d 
+	412 
+	f0f 
+	669 
+	ee6 
+	c4 
+	959 
+	159 
+	7b7 
+	93f 
+	d02 
+	fe5 
+	ab9 
+	7a7 
+	236 
+	e2c 
+	c0f 
+	56c 
+	e44 
+	986 
+	7fc 
+	171 
+	cf3 
+	44 
+	616 
+	a52 
+	829 
+	889 
+	2e8 
+	2b1 
+	1b6 
+	fd1 
+	ca4 
+	9f9 
+	24c 
+	73f 
+	2d 
+	b83 
+	86d 
+	b13 
+	89c 
+	8a5 
+	619 
+	6f6 
+	d08 
+	b43 
+	b21 
+	65f 
+	784 
+	9e 
+	fe6 
+	a0a 
+	6fb 
+	bb0 
+	7d7 
+	1a4 
+	48e 
+	1e8 
+	7a8 
+	4e1 
+	499 
+	1d1 
+	75d 
+	6ff 
+	31f 
+	e1c 
+	c59 
+	133 
+	de2 
+	6ae 
+	1b0 
+	3f5 
+	a9a 
+	6f8 
+	dab 
+	56f 
+	be7 
+	3d2 
+	f56 
+	e38 
+Number of nodes:157
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:7
+
+Total size:230
+EOF

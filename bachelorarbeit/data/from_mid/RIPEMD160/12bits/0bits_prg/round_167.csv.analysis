@@ -1,0 +1,112 @@
+algorithm:RIPEMD160, bits:12, random:0, round:167, reduction:mid
+Strongly connected component nr.: 1
+	307 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	605 
+Number of nodes:1
+
+Strongly connected component nr.: 3
+	3a3 
+	2d8 
+	5db 
+	c19 
+	5d 
+	a32 
+	a99 
+Number of nodes:7
+
+Strongly connected component nr.: 4
+	347 
+	60e 
+	c10 
+	30c 
+	921 
+	e2a 
+	85e 
+	81a 
+Number of nodes:8
+
+Strongly connected component nr.: 5
+	ed1 
+	c77 
+	153 
+	784 
+	cf8 
+	34b 
+	863 
+	674 
+	f9f 
+	785 
+	797 
+	adb 
+	cae 
+	1e2 
+	a3a 
+	815 
+	d32 
+	a0f 
+	4b4 
+	1f1 
+	40e 
+	955 
+	c6f 
+Number of nodes:23
+
+Strongly connected component nr.: 6
+	99b 
+	cf 
+	3cf 
+	756 
+	61d 
+	cd5 
+	60 
+	c0e 
+	af6 
+	dc9 
+	250 
+	cce 
+	bf4 
+	bcb 
+	b8a 
+	8 
+	ca7 
+	965 
+	c41 
+	e6b 
+	a75 
+	129 
+	154 
+	efd 
+	29e 
+	99e 
+	2d3 
+	fc2 
+	1 
+	860 
+	644 
+	377 
+	22d 
+	f84 
+	397 
+	a62 
+	4f4 
+	8f7 
+	a43 
+	a69 
+	958 
+	c0c 
+	b60 
+	dbc 
+	987 
+	bad 
+Number of nodes:46
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:86
+EOF

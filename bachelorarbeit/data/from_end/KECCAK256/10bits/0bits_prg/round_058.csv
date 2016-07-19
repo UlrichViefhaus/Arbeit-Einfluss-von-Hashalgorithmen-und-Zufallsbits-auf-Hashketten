@@ -1,0 +1,15 @@
+algorithm:KECCAK256, bits:10, random:0, round:58, reduction:end
+219,1a3
+1a3,277
+277,33d
+24d,1b0
+1b0,219
+33d,24d
+fb,8e
+3d1,fb
+217,c2
+113,113
+8e,277
+c2,217
+82,141
+141,3d1

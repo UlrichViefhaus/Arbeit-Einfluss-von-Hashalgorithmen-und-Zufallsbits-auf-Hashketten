@@ -1,0 +1,17 @@
+algorithm:RIPEMD160, bits:10, random:0, round:88, reduction:end
+Strongly connected component nr.: 1
+	360 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	27c 
+	2bf 
+Number of nodes:2
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:2
+
+Total size:3
+EOF

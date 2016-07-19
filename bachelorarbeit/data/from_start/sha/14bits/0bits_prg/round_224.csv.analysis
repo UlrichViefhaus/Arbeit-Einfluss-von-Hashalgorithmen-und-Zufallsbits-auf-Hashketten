@@ -1,0 +1,93 @@
+algorithm:SHA-1, bits:14, random:0, round:224, reduction:start
+Strongly connected component nr.: 1
+	1e28 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	2104 
+	152f 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	3ae2 
+	2d95 
+	158b 
+	3bc0 
+Number of nodes:4
+
+Strongly connected component nr.: 4
+	290c 
+	56e 
+	1deb 
+	15bc 
+	33b3 
+Number of nodes:5
+
+Strongly connected component nr.: 5
+	35ab 
+	3d46 
+	3026 
+	278b 
+	3821 
+	2961 
+	17a8 
+	14e 
+	251e 
+	3830 
+Number of nodes:10
+
+Strongly connected component nr.: 6
+	451 
+	2320 
+	c77 
+	3fab 
+	1e69 
+	3a05 
+	2ed3 
+	3fa8 
+	e97 
+	aff 
+	11c0 
+	3d02 
+	2269 
+	990 
+	1fa2 
+	562 
+	7be 
+	6a9 
+	1179 
+	8f1 
+	372b 
+	fb9 
+	211b 
+	300e 
+	d20 
+	64e 
+	3792 
+	8b9 
+	2663 
+	2e03 
+	9ff 
+	2c83 
+	1a8d 
+	1741 
+	38ee 
+	1c36 
+	3d47 
+	be8 
+	257f 
+	1dec 
+	1ac8 
+	37e1 
+	3789 
+	351f 
+	33d2 
+Number of nodes:45
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:6
+
+Total size:67
+EOF

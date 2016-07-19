@@ -1,0 +1,250 @@
+algorithm:SHA-1, bits:14, random:0, round:254, reduction:end
+Strongly connected component nr.: 1
+	1736 
+Number of nodes:1
+
+Strongly connected component nr.: 2
+	16d6 
+	17bf 
+Number of nodes:2
+
+Strongly connected component nr.: 3
+	718 
+	2e48 
+	105d 
+	b27 
+Number of nodes:4
+
+Strongly connected component nr.: 4
+	2c0 
+	2d7c 
+	2a38 
+	1cb4 
+	2551 
+Number of nodes:5
+
+Strongly connected component nr.: 5
+	2579 
+	15ae 
+	7de 
+	3508 
+	bf2 
+Number of nodes:5
+
+Strongly connected component nr.: 6
+	3246 
+	3063 
+	13e 
+	2884 
+	2fd6 
+	17ac 
+	3937 
+	2d17 
+	73d 
+	953 
+Number of nodes:10
+
+Strongly connected component nr.: 7
+	1d5 
+	1f83 
+	1a55 
+	779 
+	189b 
+	4f6 
+	2ecc 
+	20bd 
+	525 
+	1784 
+Number of nodes:10
+
+Strongly connected component nr.: 8
+	916 
+	1431 
+	a83 
+	3b5e 
+	19af 
+	22ae 
+	2115 
+	10a3 
+	29be 
+	890 
+	ba 
+	3a02 
+	d8b 
+	1824 
+	2cc1 
+	22bd 
+	34f7 
+	2303 
+	3429 
+	353b 
+	25b9 
+	3e48 
+	3d77 
+	1313 
+	3e9b 
+	39c1 
+	1ea0 
+	1f7a 
+	aec 
+	2290 
+	1283 
+	a10 
+	236a 
+	3064 
+	24d5 
+	10f2 
+	19bb 
+	28d7 
+	1a8e 
+	2bf5 
+	3a2 
+	2aac 
+	2871 
+	2b8a 
+	e0c 
+	2bc8 
+Number of nodes:46
+
+Strongly connected component nr.: 9
+	124 
+	323a 
+	2626 
+	1af0 
+	60c 
+	3f10 
+	9a 
+	1ee1 
+	3d5f 
+	3d26 
+	311b 
+	1b17 
+	22f4 
+	d36 
+	19e0 
+	2dfb 
+	37f1 
+	3e44 
+	18af 
+	3881 
+	2586 
+	1ceb 
+	314b 
+	3abe 
+	175f 
+	1d92 
+	901 
+	1966 
+	370a 
+	1ffc 
+	2417 
+	3b6 
+	2740 
+	37b 
+	3712 
+	21f0 
+	4db 
+	3792 
+	362f 
+	a1c 
+	be3 
+	32b3 
+	17f2 
+	2d9f 
+	3e07 
+	cbb 
+	34b3 
+	1e2e 
+	2e20 
+	1fb6 
+	725 
+	120f 
+	3267 
+	ecc 
+	33e3 
+	219a 
+	1d6b 
+	266e 
+	547 
+	1458 
+	72c 
+Number of nodes:61
+
+Strongly connected component nr.: 10
+	24c0 
+	70d 
+	253 
+	2288 
+	fff 
+	3af8 
+	66 
+	1dd2 
+	2852 
+	3401 
+	30cc 
+	20e2 
+	d11 
+	f06 
+	21e9 
+	1088 
+	22a3 
+	25e5 
+	1bc9 
+	2233 
+	3a3e 
+	1b46 
+	3820 
+	371c 
+	17df 
+	3b7a 
+	3a15 
+	1c2a 
+	a5e 
+	37e2 
+	f54 
+	3c15 
+	86a 
+	1489 
+	5a0 
+	c28 
+	33b6 
+	20e0 
+	38a9 
+	3c9b 
+	2484 
+	e2a 
+	3e7a 
+	810 
+	3b95 
+	b86 
+	f89 
+	3b12 
+	3388 
+	17e 
+	1c95 
+	1d99 
+	c50 
+	1048 
+	3309 
+	421 
+	2660 
+	31f5 
+	a13 
+	28a8 
+	121d 
+	1d7 
+	210 
+	1072 
+	1756 
+	1242 
+	1d09 
+	36dc 
+Number of nodes:68
+
+List of peeled of leafes.
+Leafes peeled of:0
+
+Number of strongly connected components:10
+
+Total size:212
+EOF
