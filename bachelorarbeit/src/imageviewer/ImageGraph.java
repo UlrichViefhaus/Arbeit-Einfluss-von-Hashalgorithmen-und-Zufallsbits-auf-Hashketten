@@ -1,20 +1,20 @@
 /**
- *  Copyright (C) 2013  Ulrich Viefhaus
+ * Copyright (C) 2013 Ulrich Viefhaus
  *
- *  This file is part of Hashmaker and/or Hashviewer.
+ * This file is part of Hashmaker and/or Hashviewer.
  *
- *    Hashmaker and Hashviewer is free software: you can redistribute it and/or modify
- *    it under the terms of the GNU General Public License as published by
- *    the Free Software Foundation, either version 3 of the License, or
- *    (at your option) any later version.
+ * Hashmaker and Hashviewer is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
  *
- *    Hashmaker and Hashviewer is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *    GNU General Public License for more details.
+ * Hashmaker and Hashviewer is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
  *
- *    You should have received a copy of the GNU General Public License
- *    along with Hashmaker and Hashviewer.  If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License along with
+ * Hashmaker and Hashviewer. If not, see <http://www.gnu.org/licenses/>.
  *
  *
  */
@@ -28,8 +28,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Stack;
 import java.util.Map.Entry;
+import java.util.Stack;
 import java.util.logging.Logger;
 
 /**
@@ -41,22 +41,22 @@ public class ImageGraph {
     /**
      * The logger.
      */
-    Logger logger;
+    Logger			      logger;
 
     /**
      * The file containing the Nodes and Edges.
      */
-    File datafile;
+    File			      datafile;
 
     /**
      * The index needed for the search for strongly connected components.
      */
-    int index = 0;
+    int				      index	 = 0;
 
     /**
      * The stack needed for the search for strongly connected components.
      */
-    final Stack<Node> stack = new Stack<Node>();
+    final Stack<Node>		      stack	 = new Stack<Node>();
 
     /**
      * The List of components needed for the search for strongly connected
@@ -67,7 +67,7 @@ public class ImageGraph {
     /**
      * Collection of nodes.
      */
-    private Collection<Node> nodes;
+    private Collection<Node>	      nodes;
 
     /**
      * Default constructor using super(), a given logger and a file containing
@@ -80,10 +80,10 @@ public class ImageGraph {
      */
     public ImageGraph(final Logger logger, final File file) {
 
-        super();
-        this.nodes = new LinkedList<Node>();
-        this.logger = logger;
-        this.datafile = file;
+	super();
+	this.nodes = new LinkedList<Node>();
+	this.logger = logger;
+	this.datafile = file;
     }
 
     /**
@@ -96,17 +96,13 @@ public class ImageGraph {
      */
     public final void addNode(final Integer name) throws Exception {
 
-        if (this.contains(name)) {
-            throw new Exception(
-                    "A node with the name "
-                            + name
-                            + ", "
-                            + Integer.toHexString(name)
-                            + " in Hex, already exists. Try again with a different name.");
-        } else {
-            Node node = new Node(name);
-            this.nodes.add(node);
-        }
+	if (this.contains(name)) {
+	    throw new Exception("A node with the name " + name + ", " + Integer.toHexString(name)
+		    + " in Hex, already exists. Try again with a different name.");
+	} else {
+	    Node node = new Node(name);
+	    this.nodes.add(node);
+	}
     }
 
     /**
@@ -117,16 +113,12 @@ public class ImageGraph {
      */
     public final void addNode(final Node node) throws Exception {
 
-        if (this.contains(node)) {
-            throw new Exception(
-                    "A node with the name "
-                            + node.getName()
-                            + ", "
-                            + node.getHexName()
-                            + " in Hex, already exists. Try again with a different name.");
-        } else {
-            this.nodes.add(node);
-        }
+	if (this.contains(node)) {
+	    throw new Exception("A node with the name " + node.getName() + ", " + node.getHexName()
+		    + " in Hex, already exists. Try again with a different name.");
+	} else {
+	    this.nodes.add(node);
+	}
     }
 
     /**
@@ -139,7 +131,7 @@ public class ImageGraph {
      */
     public final void deleteNode(final Integer name) throws Exception {
 
-        this.deleteNode(this.get(name));
+	this.deleteNode(this.get(name));
     }
 
     /**
@@ -152,28 +144,27 @@ public class ImageGraph {
      */
     public final void deleteNode(final Node todelete) throws Exception {
 
-        if (this.contains(todelete)) {
-            // Remove from in and out collections
-            if (!todelete.getIn().isEmpty()) {
-                for (Node node : todelete.getIn()) {
-                    node.getOut().remove(todelete);
-                }
-            }
+	if (this.contains(todelete)) {
+	    // Remove from in and out collections
+	    if (!todelete.getIn().isEmpty()) {
+		for (Node node : todelete.getIn()) {
+		    node.getOut().remove(todelete);
+		}
+	    }
 
-            if (!todelete.getOut().isEmpty()) {
-                for (Node node : todelete.getOut()) {
-                    node.getIn().remove(todelete);
-                }
-            }
+	    if (!todelete.getOut().isEmpty()) {
+		for (Node node : todelete.getOut()) {
+		    node.getIn().remove(todelete);
+		}
+	    }
 
-            // Remove from the collection
-            this.nodes.remove(todelete);
+	    // Remove from the collection
+	    this.nodes.remove(todelete);
 
-        } else {
-            throw new Exception("A node with the name " + todelete.getName()
-                    + ", " + todelete.getHexName()
-                    + " in Hex, does not exists within this graph.");
-        }
+	} else {
+	    throw new Exception("A node with the name " + todelete.getName() + ", " + todelete.getHexName()
+		    + " in Hex, does not exists within this graph.");
+	}
     }
 
     /**
@@ -185,14 +176,14 @@ public class ImageGraph {
      */
     public boolean contains(final Integer name) {
 
-        boolean result = false;
-        for (Node node : this.nodes) {
-            if (name.equals(node.getName())) {
-                result = true;
-                break;
-            }
-        }
-        return result;
+	boolean result = false;
+	for (Node node : this.nodes) {
+	    if (name.equals(node.getName())) {
+		result = true;
+		break;
+	    }
+	}
+	return result;
     }
 
     /**
@@ -204,14 +195,14 @@ public class ImageGraph {
      */
     public boolean contains(final Node node) {
 
-        boolean result = false;
-        for (Node tmpnode : this.nodes) {
-            if (node.getHexName().equals(tmpnode.getHexName())) {
-                result = true;
-                break;
-            }
-        }
-        return result;
+	boolean result = false;
+	for (Node tmpnode : this.nodes) {
+	    if (node.getHexName().equals(tmpnode.getHexName())) {
+		result = true;
+		break;
+	    }
+	}
+	return result;
     }
 
     /**
@@ -223,14 +214,14 @@ public class ImageGraph {
      */
     public Node get(final Integer name) {
 
-        Node result = null;
-        for (Node node : this.nodes) {
-            if (name.equals(node.getName())) {
-                result = node;
-                break;
-            }
-        }
-        return result;
+	Node result = null;
+	for (Node node : this.nodes) {
+	    if (name.equals(node.getName())) {
+		result = node;
+		break;
+	    }
+	}
+	return result;
     }
 
     /**
@@ -244,9 +235,9 @@ public class ImageGraph {
      */
     public final void addEdge(final Node out, final Node in) throws Exception {
 
-        // Add connection
-        in.getIn().add(out);
-        out.getOut().add(in);
+	// Add connection
+	in.getIn().add(out);
+	out.getOut().add(in);
     }
 
     /**
@@ -254,7 +245,7 @@ public class ImageGraph {
      */
     public final void printAnalysis() {
 
-        this.printAlalysis(true);
+	this.printAlalysis(true);
     }
 
     /**
@@ -265,87 +256,82 @@ public class ImageGraph {
      */
     public final void printAlalysis(final boolean sort) {
 
-        final HashMap<Node, Boolean> leafes = this.searchLeafes();
+	final HashMap<Node, Boolean> leafes = this.searchLeafes();
 
-        // Remove Leafes from the nodes collection
-        for (Entry<Node, Boolean> entry : leafes.entrySet()) {
-            if (entry.getValue()) {
-                try {
-                    this.deleteNode(entry.getKey());
-                } catch (Exception e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-            }
-        }
+	// Remove Leafes from the nodes collection
+	for (Entry<Node, Boolean> entry : leafes.entrySet()) {
+	    if (entry.getValue()) {
+		try {
+		    this.deleteNode(entry.getKey());
+		} catch (Exception e) {
+		    // TODO Auto-generated catch block
+		    e.printStackTrace();
+		}
+	    }
+	}
 
-        // Start a search for each node, that wasn't visited already
-        // Save the strongly connected component in the list
-        for (Node node : this.nodes) {
+	// Start a search for each node, that wasn't visited already
+	// Save the strongly connected component in the list
+	for (Node node : this.nodes) {
 
-            if (node.getIndex() <= 0) {
-                this.searchStrongComponent(node);
-            }
-        }
+	    if (node.getIndex() <= 0) {
+		this.searchStrongComponent(node);
+	    }
+	}
 
-        // Sort the lists of scc if needed
-        if (sort) {
-            java.util.Collections.sort(components, new ListLengthComparator());
-        }
+	// Sort the lists of scc if needed
+	if (sort) {
+	    components.sort((c1, c2) -> Integer.compare(c1.size(), c2.size()));
+	}
 
-        final FileWriter filewriter;
-        final BufferedWriter datastream;
-        final File file = new File(datafile.getPath() + ".analysis");
+	final FileWriter filewriter;
+	final BufferedWriter datastream;
+	final File file = new File(datafile.getPath() + ".analysis");
 
-        try {
-            filewriter = new FileWriter(file, true);
-            datastream = new BufferedWriter(filewriter);
-            int totalnodes = 0;
-            int numberscc = 0;
-            // Print the nodes of each scc
-            for (ArrayList<Node> lists : components) {
-                numberscc++;
-                int nodes = 0;
-                datastream.write("Strongly connected component nr.: "
-                        + numberscc + "\n");
-                for (Node tmp : lists) {
-                    datastream.write("\t" + Integer.toString(tmp.getName(), 16)
-                            + " \n");
-                    nodes++;
-                    totalnodes++;
-                }
-                datastream.write("Number of nodes:" + nodes + "\n\n");
+	try {
+	    filewriter = new FileWriter(file, true);
+	    datastream = new BufferedWriter(filewriter);
+	    int totalnodes = 0;
+	    int numberscc = 0;
+	    // Print the nodes of each scc
+	    for (ArrayList<Node> lists : components) {
+		numberscc++;
+		int nodes = 0;
+		datastream.write("Strongly connected component nr.: " + numberscc + "\n");
+		for (Node tmp : lists) {
+		    datastream.write("\t" + Integer.toString(tmp.getName(), 16) + " \n");
+		    nodes++;
+		    totalnodes++;
+		}
+		datastream.write("Number of nodes:" + nodes + "\n\n");
 
-            }
+	    }
 
-            // Print leafes
-            int count = 0;
-            datastream.write("List of peeled of leafes.\n");
-            for (Node tmp : leafes.keySet()) {
-                if (leafes.get(tmp)) {
-                    datastream.write(" \t"
-                            + Integer.toString(tmp.getName(), 16) + " \n");
-                    count++;
-                }
-            }
+	    // Print leafes
+	    int count = 0;
+	    datastream.write("List of peeled of leafes.\n");
+	    for (Node tmp : leafes.keySet()) {
+		if (leafes.get(tmp)) {
+		    datastream.write(" \t" + Integer.toString(tmp.getName(), 16) + " \n");
+		    count++;
+		}
+	    }
 
-            datastream.write("Leafes peeled of:" + count + "\n\n");
+	    datastream.write("Leafes peeled of:" + count + "\n\n");
 
-            datastream.write("Number of strongly connected components:"
-                    + components.size() + "\n\n");
+	    datastream.write("Number of strongly connected components:" + components.size() + "\n\n");
 
-            // Size of space
-            datastream.write("Total size:" + totalnodes + "\nEOF");
+	    // Size of space
+	    datastream.write("Total size:" + totalnodes + "\nEOF");
 
-            // Close the result file
-            datastream.flush();
-            datastream.close();
-            filewriter.close();
-        } catch (IOException e) {
-            logger.warning("Error while trying to save the results to "
-                    + file.getAbsolutePath() + ". The Errormessage was:"
-                    + e.getLocalizedMessage());
-        }
+	    // Close the result file
+	    datastream.flush();
+	    datastream.close();
+	    filewriter.close();
+	} catch (IOException e) {
+	    logger.warning("Error while trying to save the results to " + file.getAbsolutePath()
+		    + ". The Errormessage was:" + e.getLocalizedMessage());
+	}
 
     }
 
@@ -358,35 +344,35 @@ public class ImageGraph {
      */
     private LinkedList<ArrayList<Node>> searchStrongComponent(final Node node) {
 
-        node.setIndex(index);
-        node.setLowlink(index);
-        index++;
+	node.setIndex(index);
+	node.setLowlink(index);
+	index++;
 
-        stack.push(node);
-        node.setOnStack(true);
+	stack.push(node);
+	node.setOnStack(true);
 
-        // Add nodes that are reachable from this node
-        for (Node tmp : node.getOut()) {
-            if (tmp.getIndex() == -1) {
-                searchStrongComponent(tmp);
-                node.setLowlink(Math.min(node.getLowlink(), tmp.getLowlink()));
-            } else if (tmp.isOnStack()) {
-                node.setLowlink(Math.min(node.getLowlink(), tmp.getIndex()));
-            }
-        }
-        // Check if node is a root of an SCC
-        if (node.getLowlink().equals(node.getIndex())) {
+	// Add nodes that are reachable from this node
+	for (Node tmp : node.getOut()) {
+	    if (tmp.getIndex() == -1) {
+		searchStrongComponent(tmp);
+		node.setLowlink(Math.min(node.getLowlink(), tmp.getLowlink()));
+	    } else if (tmp.isOnStack()) {
+		node.setLowlink(Math.min(node.getLowlink(), tmp.getIndex()));
+	    }
+	}
+	// Check if node is a root of an SCC
+	if (node.getLowlink().equals(node.getIndex())) {
 
-            ArrayList<Node> strong_component = new ArrayList<Node>();
-            Node n = new Node();
-            do {
-                n = stack.pop();
-                n.setOnStack(false);
-                strong_component.add(n);
-            } while (!node.equals(n));
-            components.add(strong_component);
-        }
-        return components;
+	    ArrayList<Node> strong_component = new ArrayList<Node>();
+	    Node n = new Node();
+	    do {
+		n = stack.pop();
+		n.setOnStack(false);
+		strong_component.add(n);
+	    } while (!node.equals(n));
+	    components.add(strong_component);
+	}
+	return components;
     }
 
     /**
@@ -394,14 +380,14 @@ public class ImageGraph {
      */
     private final HashMap<Node, Boolean> searchLeafes() {
 
-        final HashMap<Node, Boolean> map = new HashMap<Node, Boolean>();
+	final HashMap<Node, Boolean> map = new HashMap<Node, Boolean>();
 
-        // Test each node
-        for (Node node : this.nodes) {
-            // The node is a leaf if it has no input
-            map.put(node, !hasInput(node));
-        }
-        return map;
+	// Test each node
+	for (Node node : this.nodes) {
+	    // The node is a leaf if it has no input
+	    map.put(node, !hasInput(node));
+	}
+	return map;
     }
 
     /**
@@ -413,13 +399,13 @@ public class ImageGraph {
      */
     private final boolean hasInput(final Node node) {
 
-        boolean result = false;
-        // Search for a node that has an edge to the given node
-        // The given node has input if there is such a node
-        if (!node.getIn().isEmpty()) {
-            result = true;
-        }
-        return result;
+	boolean result = false;
+	// Search for a node that has an edge to the given node
+	// The given node has input if there is such a node
+	if (!node.getIn().isEmpty()) {
+	    result = true;
+	}
+	return result;
     }
 
     /**
@@ -431,19 +417,17 @@ public class ImageGraph {
      */
     public Node newNode(String string) {
 
-        Node newNode = new Node(string);
-        if (this.contains(newNode)) {
-            newNode = this.get(newNode.getName());
-        } else {
-            try {
-                this.addNode(newNode);
-            } catch (Exception e) {
-                logger
-                        .warning("Error while creating new Node " + string
-                                + ". The error message was: "
-                                + e.getLocalizedMessage());
-            }
-        }
-        return newNode;
+	Node newNode = new Node(string);
+	if (this.contains(newNode)) {
+	    newNode = this.get(newNode.getName());
+	} else {
+	    try {
+		this.addNode(newNode);
+	    } catch (Exception e) {
+		logger.warning("Error while creating new Node " + string + ". The error message was: "
+			+ e.getLocalizedMessage());
+	    }
+	}
+	return newNode;
     }
 }
